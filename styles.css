@@ -6,6 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.Name-color{
+    color: #FD6E0A;
+}
 nav{
     display: flex;
     align-items: center;
@@ -29,14 +32,32 @@ nav h1{
     font-weight: bolder;
     font-size: 45px;
 }
-.link color{
+.link-color{
     color: #474747;
 }
 .button-design {
-    border: 2px solid;
+    border: none;
     border-radius: 5px;
     padding: 18px 35px;
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
+}
+.introduction{
+    margin: 0 250px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    border: 1px solid;
+    margin: 100px 45px;
+    max-width: 450px;
+}
+.contact{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 18px 35px;
+    margin-right: 5px;
+    color: #FD6E0A;
 }
