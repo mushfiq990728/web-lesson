@@ -44,14 +44,18 @@ nav h1{
     color: white;
 }
 .introduction{
-    margin: 0 250px 0 150px;
+    margin: 0 150px 0 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url("developer.png"), url(header_bg.png); 
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-color: #FFF8F3;
 }
 .container{
     border: 1px solid;
-    margin: 100px 45px;
+    margin: 150px 45px 100px 200px;
     max-width: 450px;
 }
 .contact{
@@ -60,4 +64,29 @@ nav h1{
     padding: 18px 35px;
     margin-right: 5px;
     color: #FD6E0A;
+}
+body{
+    background-color: #FFF8F3;
+}
+.about-me{
+    display: block;
+    margin: 250px;
+    text-align: center;
+    align-items: center;
+}
+.topic, .description{
+    text-align: center;
+}
+.specific{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.specific a{
+    text-decoration: none;
+    color: black;
+}
+.specific h5{
+    font-weight: mixed;
 }
